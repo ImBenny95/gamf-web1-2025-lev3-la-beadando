@@ -93,3 +93,13 @@ aside, #content {
     color: #ccc;
     box-sizing: border-box;
 }
+
+/* Képek */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #000;
+}

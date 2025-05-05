@@ -21,3 +21,4 @@ Changelog:
 **Alpha**
 
 - 1.0a – Az oldalam alapjai
+- 1.1a – Az oldalon megjelenő képek igazítása CSS használatával
