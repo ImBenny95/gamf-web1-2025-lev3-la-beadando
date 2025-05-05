@@ -103,3 +103,13 @@ img {
     border-radius: 6px;
     box-shadow: 0 0 10px #000;
 }
+
+/* Hivatkozások */
+a {
+    color: #1be5fd;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #ffffff;
+}
