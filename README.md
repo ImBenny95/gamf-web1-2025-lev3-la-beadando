@@ -27,3 +27,7 @@ Changelog:
 - 1.4a – Számozott listában a képek most mégszebben jelennek meg
 - 1.5a – A túlcsorduló táblázat görgethetővé tétele a beállítások oldalon
 - 1.6a – Kapcsolatfelvételi űrlap funkció hozzáadva
+
+**Beta**
+
+- 1.0b – Design reszelgetés, az oldal élesítése
