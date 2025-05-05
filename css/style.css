@@ -142,3 +142,40 @@ a:hover {
     height: 100%;
 }
 
+/* Táblázat */
+.pro-settings-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.pro-settings-table th,
+.pro-settings-table td {
+    padding: 0.5rem;
+    text-align: center;
+    border: 1px solid #444;
+}
+
+.pro-settings-table th {
+    background-color: #1D7CA2;
+    color: white;
+}
+
+.pro-settings-table tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.table-container {
+    overflow-x: auto;
+    max-width: 100%;
+}
+
+.table-container::-webkit-scrollbar {
+    height: 8px;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+    background: #1D7CA2;
+    border-radius: 4px;
+}
