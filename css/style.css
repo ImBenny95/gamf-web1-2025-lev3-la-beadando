@@ -104,6 +104,17 @@ img {
     box-shadow: 0 0 10px #000;
 }
 
+/* Képek számozott listában */
+ol img {
+    display: block;
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    margin: 0.5rem auto 2rem auto;
+    border-radius: 10px;
+    box-shadow: 0 0 12px #000;
+}
+
 /* Hivatkozások */
 a {
     color: #1be5fd;

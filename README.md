@@ -24,3 +24,4 @@ Changelog:
 - 1.1a – Az oldalon megjelenő képek igazítása CSS használatával
 - 1.2a – A linkek mostantól egyéni stílussal jelennek meg
 - 1.3a – YouTube videó beágyazása
+- 1.4a – Számozott listában a képek most mégszebben jelennek meg
