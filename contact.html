@@ -26,9 +26,27 @@
                 <p>Kapcsolatfelvételi űrlap</p>
             </aside>
             <div id="content">
-
-
-
+                <h2>Lépj velem kapcsolatba</h2>
+                <form id="contactForm" novalidate>
+                    <label for="name">Név:</label>
+                    <input type="text" id="name" name="name" required>
+                
+                    <label for="email">E-mail cím:</label>
+                    <input type="email" id="email" name="email" required>
+                
+                    <label for="subject">Tárgy:</label>
+                    <input type="text" id="subject" name="subject" required>
+                
+                    <label for="message">Üzenet:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                
+                    <label for="favoriteMap">Kedvenc CS pálya:</label>
+                    <input type="text" id="favoriteMap" name="favoriteMap" required>
+                
+                    <button type="submit">Küldés</button>
+                </form>
+                
+                <p id="formMessage" style="margin-top:1rem; color: #1be5fd;"></p>
             </div>
             <footer>
                 <p>&copy; 2025 WEB-programozás I. - Labor beadandó feladat</p>
@@ -36,5 +54,6 @@
             </footer>
         </div>
     </div>
+    <script src="js/form-validate.js"></script>
 </body>
 </html>
