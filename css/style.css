@@ -1,0 +1,95 @@
+/* Általános alapbeállítás: törlés, magasság fix */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #181818;
+    font-family: Arial, sans-serif;
+    color: #ccc;
+}
+
+/* Háttér konténer */
+.background-container {
+    min-height: 100vh; /* Legalább teljes képernyő, de tartalomhoz is igazodik */
+    background-image: url(../images/background-page.png);
+    background-repeat: repeat-y;
+    background-position-x: calc(50% + 5px); /* Háttér igazítása */
+    background-position-y: top;
+    background-attachment: scroll; /* scroll jobban kezeli a hosszú oldalt */
+    background-color: #181818;
+}
+
+
+/* Középre igazított tartalom */
+.site-wrapper {
+    max-width: 730px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* Fejléc – háttérkép, fehér szöveg árnyékkal */
+header {
+    background-image: url(../images/background-header.jpg); /* <-- Fejléc kép helye */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 3rem 1rem; /* ↑ Megnövelt belső tér, magasság növelése */
+    min-height: 180px;  /* ↑ Minimális magasság, ha kell fix méret */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    text-shadow: 2px 2px 6px #000;
+}
+
+/* Lábléc – átlátszó háttér, ciánkék szöveg */
+footer {
+    background-color: transparent;
+    color: #1be5fd;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+/* Navigáció */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #242424;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    display: block;
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+nav li.active a,
+nav a:hover {
+    background-color: #1D7CA2;
+}
+
+/* Tartalmi szakaszok */
+aside, #content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1.5rem 2rem;
+    color: #ccc;
+    box-sizing: border-box;
+}
